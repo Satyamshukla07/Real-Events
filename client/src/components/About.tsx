@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative py-28 bg-gray-50 overflow-hidden"
+      className="relative pt-40 pb-28 bg-gray-50 overflow-hidden"
       data-testid="about-section"
     >
       {/* Background Decorative Lights */}
