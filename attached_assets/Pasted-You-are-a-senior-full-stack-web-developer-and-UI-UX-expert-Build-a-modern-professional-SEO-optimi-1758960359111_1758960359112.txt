@@ -1,0 +1,38 @@
+You are a senior full-stack web developer and UI/UX expert. Build a modern, professional, SEO-optimized landing page for the company "Real Events and Entertainment Pvt. Ltd." (https://realeventsandent.com/).
+
+Requirements:
+1. Design & Layout:
+   - Use a clean, modern, and minimal UI with bold headings, engaging typography, and high-quality visuals.
+   - Create an eye-catching hero section with a background image/video, headline, and CTA button.
+   - Add smooth scrolling, parallax effects, and subtle animations using Framer Motion or AOS.
+   - Use a grid/flex layout for responsive design (mobile, tablet, desktop).
+
+2. Sections to Include:
+   - **Hero Section:** Event tagline, call-to-action (e.g., "Plan Your Dream Event").
+   - **About Us:** Brief company intro with icons or visuals.
+   - **Services:** Showcase event management, wedding planning, corporate events, concerts, etc. Use cards with hover effects.
+   - **Portfolio/Gallery:** Interactive image slider or grid gallery.
+   - **Testimonials:** Client reviews with star ratings.
+   - **Contact Form:** Interactive form with validation, Google Maps integration.
+   - **Footer:** Social links, quick links, copyright, contact info.
+
+3. Technical & SEO:
+   - Implement semantic HTML5, meta tags, Open Graph tags, and structured data for SEO.
+   - Add fast-loading, optimized images with lazy loading.
+   - Include smooth navigation with a sticky header.
+   - Mobile-first responsive design.
+   - Accessibility (alt tags, aria labels, contrast-friendly colors).
+
+4. Tech Stack:
+   - Frontend: React + Tailwind CSS (or Next.js with Tailwind for SEO).
+   - Animations: Framer Motion or AOS.
+   - SEO: Use react-helmet (if React) or built-in Next.js Head for meta tags.
+   - Forms: Functional contact form with email integration (e.g., EmailJS or API endpoint).
+
+5. Style & Branding:
+   - Elegant color palette (black, gold, and white or modern event-style theme).
+   - Smooth hover states, shadows, gradients, and glassmorphism in some sections.
+   - Typography: Use Google Fonts (e.g., Poppins, Montserrat, Playfair Display).
+
+Deliverable:
+- A complete landing page code with modern animations, responsive design, SEO best practices, and a professional UI/UX feel for an event management company.
