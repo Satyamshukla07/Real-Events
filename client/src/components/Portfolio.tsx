@@ -4,55 +4,56 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
-import portfolioImage1 from '@assets/generated_images/Portfolio_gallery_image_1_8cebd55e.png';
-import portfolioImage2 from '@assets/generated_images/Portfolio_gallery_image_2_c39011fe.png';
-import portfolioImage3 from '@assets/generated_images/Portfolio_gallery_image_3_3ac02dc4.png';
-import weddingImage from '@assets/generated_images/Hero_wedding_ceremony_image_e5aac2a9.png';
-import corporateImage from '@assets/generated_images/Corporate_events_service_image_e37cecc8.png';
-import concertImage from '@assets/generated_images/Concert_entertainment_service_image_720f6d5f.png';
+// Real event photography imports (using working file formats)
+import corporateSeating from '@assets/3K3A2966_1758966139840.jpg';
+import weddingDecor from '@assets/_DSC5509_1758966100179.jpg';
+import rangoliSetup from '@assets/_DSC5517_1758966100180.jpg';
+import corporateEvent from '@assets/3K3A3019_1758966139840.jpg';
+import weddingDraping from '@assets/_DSC5563_1758966100180.jpg';
+import corporateTech from '@assets/2025-05-14_1758966139841.jpg';
 
 const portfolioItems = [
   {
     id: 1,
-    title: "Elegant Garden Wedding",
+    title: "Luxury Wedding Decor Setup",
     category: "Wedding",
-    image: portfolioImage1,
-    description: "A romantic outdoor wedding with string lights and floral arrangements"
+    image: weddingDecor,
+    description: "Elegant ceiling draping with colorful paper lanterns and fairy light installations"
   },
   {
     id: 2,
-    title: "Corporate Innovation Summit",
-    category: "Corporate",
-    image: portfolioImage2,
-    description: "A modern conference showcasing cutting-edge technology and innovation"
+    title: "Traditional Rangoli & Diya Ceremony",
+    category: "Wedding",
+    image: rangoliSetup,
+    description: "Beautiful traditional rangoli patterns with decorative diya lighting setup and branch arrangements"
   },
   {
     id: 3,
-    title: "Luxury Birthday Celebration",
-    category: "Social",
-    image: portfolioImage3,
-    description: "An elegant milestone birthday party with sophisticated decor"
+    title: "Premium Corporate Event Setup",
+    category: "Corporate",
+    image: corporateSeating,
+    description: "Professional white leather furniture setup with red carpet and elegant staging"
   },
   {
     id: 4,
-    title: "Destination Wedding Ceremony",
-    category: "Wedding",
-    image: weddingImage,
-    description: "A breathtaking ceremony in a luxury venue with golden hour lighting"
+    title: "Corporate Conference & Awards",
+    category: "Corporate", 
+    image: corporateEvent,
+    description: "Large-scale corporate event with professional audio-visual setup and branding"
   },
   {
     id: 5,
-    title: "Annual Awards Gala",
-    category: "Corporate",
-    image: corporateImage,
-    description: "A prestigious awards ceremony celebrating excellence and achievement"
+    title: "Elegant Wedding Draping",
+    category: "Wedding",
+    image: weddingDraping,
+    description: "Sophisticated ceiling draping with colorful fabric and ambient lighting design"
   },
   {
     id: 6,
-    title: "Music Festival Stage",
-    category: "Entertainment",
-    image: concertImage,
-    description: "Dynamic stage production with spectacular lighting and sound design"
+    title: "Modern Corporate Technology Event",
+    category: "Corporate",
+    image: corporateTech,
+    description: "Contemporary corporate event with vibrant lighting and modern staging design"
   }
 ];
 
