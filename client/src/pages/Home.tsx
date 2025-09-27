@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import { HeroSection } from '@/components/sections';
 import About from '@/components/About';
 import Services from '@/components/Services';
 import Portfolio from '@/components/Portfolio';
@@ -14,24 +14,24 @@ export default function Home() {
     <ThemeProvider>
       <div className="min-h-screen bg-background">
         <Helmet>
-          <title>Real Events and Entertainment Pvt. Ltd. - Premium Event Planning Services</title>
+          <title>Real Events & Entertainment - The Future of Luxury Events</title>
           <meta 
             name="description" 
-            content="Real Events and Entertainment offers professional event planning services in Mumbai. From weddings to corporate events, we create unforgettable experiences with luxury and precision." 
+            content="Step into the future of event experiences. Real Events & Entertainment creates immersive luxury events with cutting-edge technology, holographic displays, and unforgettable 3D environments." 
           />
-          <meta name="keywords" content="event planning, wedding planning, corporate events, Mumbai, entertainment, luxury events, event management" />
+          <meta name="keywords" content="futuristic events, luxury event planning, immersive experiences, holographic events, 3D environments, premium entertainment, innovative event technology" />
           
           {/* Open Graph Tags */}
-          <meta property="og:title" content="Real Events and Entertainment - Premium Event Planning" />
-          <meta property="og:description" content="Creating unforgettable moments through exceptional event planning and management. Your vision, our expertise." />
+          <meta property="og:title" content="Real Events & Entertainment - The Future of Luxury Events" />
+          <meta property="og:description" content="Step into a universe where luxury meets innovation. We craft immersive experiences that transform events into unforgettable journeys through time and space." />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://realeventsandent.com/" />
-          <meta property="og:site_name" content="Real Events and Entertainment" />
+          <meta property="og:site_name" content="Real Events & Entertainment" />
           
           {/* Twitter Card Tags */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Real Events and Entertainment - Premium Event Planning" />
-          <meta name="twitter:description" content="Creating unforgettable moments through exceptional event planning and management." />
+          <meta name="twitter:title" content="Real Events & Entertainment - The Future of Luxury Events" />
+          <meta name="twitter:description" content="Immersive luxury events with cutting-edge technology and unforgettable 3D environments." />
           
           {/* Additional SEO Tags */}
           <meta name="robots" content="index, follow" />
@@ -44,8 +44,8 @@ export default function Home() {
             {JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Real Events and Entertainment Pvt. Ltd.",
-              "description": "Professional event planning and management services",
+              "name": "Real Events & Entertainment",
+              "description": "Futuristic luxury event experiences with immersive technology and holographic environments",
               "url": "https://realeventsandent.com/",
               "telephone": "+91 98765 43210",
               "address": {
@@ -118,12 +118,16 @@ export default function Home() {
         <Header />
         
         <main>
-          <Hero />
-          <About />
-          <Services />
+          <HeroSection />
+          <div id="services">
+            <Services />
+          </div>
           <Portfolio />
+          <About />
           <Testimonials />
-          <Contact />
+          <div id="contact">
+            <Contact />
+          </div>
         </main>
         
         <Footer />
