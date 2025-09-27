@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from 'react-helmet-async';
 import Home from "@/pages/Home";
 import NotFound from "@/pages/not-found";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 function Router() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <WhatsAppButton />
         </TooltipProvider>
       </QueryClientProvider>
     </HelmetProvider>
