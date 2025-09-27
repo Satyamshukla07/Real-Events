@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoImage from '@assets/logo.png_1758965745855.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,7 +61,7 @@ export default function Header() {
               className="group-hover:drop-shadow-lg transition-all duration-200"
             >
               <img
-                src="/attached_assets/logo.png_1758965745855.png"
+                src={logoImage}
                 alt="Real Events & Entertainment Logo"
                 className="h-12 md:h-14 w-auto object-contain"
                 style={{ maxWidth: '200px' }}
