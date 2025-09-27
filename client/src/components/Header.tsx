@@ -50,19 +50,22 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* 🔹 Logo */}
           <div
-            className="flex items-center space-x-2 cursor-pointer group"
+            className="flex items-center cursor-pointer group"
             onClick={() => scrollToSection('hero')}
             data-testid="logo-link"
           >
             <motion.div
-              whileHover={{ rotate: 10, scale: 1.1 }}
-              className="w-10 h-10 bg-gradient-to-tr from-amber-400 via-pink-500 to-purple-600 rounded-lg flex items-center justify-center shadow-lg border border-white/40"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
+              className="group-hover:drop-shadow-lg transition-all duration-200"
             >
-              <span className="text-white font-extrabold text-lg font-playfair drop-shadow-lg">R</span>
+              <img
+                src="/attached_assets/logo.png_1758965745855.png"
+                alt="Real Events & Entertainment Logo"
+                className="h-12 md:h-14 w-auto object-contain"
+                style={{ maxWidth: '200px' }}
+              />
             </motion.div>
-            <span className="text-2xl font-playfair font-extrabold bg-gradient-to-r from-amber-400 via-pink-500 to-purple-600 bg-clip-text text-transparent tracking-wide group-hover:scale-105 transition-transform">
-              Real Events
-            </span>
           </div>
 
           {/* 🔹 Desktop Navigation */}
