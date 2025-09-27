@@ -11,45 +11,54 @@ import rangoliSetup from '@assets/_DSC5517_1758966100180.jpg';
 import corporateEvent from '@assets/3K3A3019_1758966139840.jpg';
 import weddingDraping from '@assets/_DSC5563_1758966100180.jpg';
 import corporateTech from '@assets/2025-05-14_1758966139841.jpg';
+// Social and Entertainment photos (using working files only)
+import familyCelebration from '@assets/_DSC5837_1758966574102.jpg';
 
 const portfolioItems = [
   {
     id: 1,
+    title: "Family Dance Celebration",
+    category: "Social",
+    image: familyCelebration,
+    description: "Joyful family gathering with colorful draping, fairy lights, and traditional entertainment"
+  },
+  {
+    id: 2,
     title: "Luxury Wedding Decor Setup",
     category: "Wedding",
     image: weddingDecor,
     description: "Elegant ceiling draping with colorful paper lanterns and fairy light installations"
   },
   {
-    id: 2,
+    id: 3,
     title: "Traditional Rangoli & Diya Ceremony",
     category: "Wedding",
     image: rangoliSetup,
     description: "Beautiful traditional rangoli patterns with decorative diya lighting setup and branch arrangements"
   },
   {
-    id: 3,
+    id: 4,
     title: "Premium Corporate Event Setup",
     category: "Corporate",
     image: corporateSeating,
     description: "Professional white leather furniture setup with red carpet and elegant staging"
   },
   {
-    id: 4,
+    id: 5,
     title: "Corporate Conference & Awards",
     category: "Corporate", 
     image: corporateEvent,
     description: "Large-scale corporate event with professional audio-visual setup and branding"
   },
   {
-    id: 5,
+    id: 6,
     title: "Elegant Wedding Draping",
     category: "Wedding",
     image: weddingDraping,
     description: "Sophisticated ceiling draping with colorful fabric and ambient lighting design"
   },
   {
-    id: 6,
+    id: 7,
     title: "Modern Corporate Technology Event",
     category: "Corporate",
     image: corporateTech,
