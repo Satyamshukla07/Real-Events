@@ -1,0 +1,47 @@
+I want to enhance my website's user interface and experience to align with a premium, luxurious, and modern aesthetic—not just with gradients, but with thoughtful, high-end visual design and interactive elements. The site should feel royal, eye-catching, and dynamic, while maintaining clarity, performance, and responsiveness.
+
+Key Goals:
+
+Add a floating WhatsApp chat button:
+
+Sticky and visible on all pages (preferably bottom-right).
+
+On click/tap, it should open a chat with a pre-filled message to my WhatsApp number.
+
+Design must match the premium feel—avoid the default green icon unless customized to match the site theme.
+
+Add subtle hover/tap animations for interactivity.
+
+Overall Design Enhancement:
+
+Implement a modern, luxury-inspired design system (e.g., clean typography, strong visual hierarchy, elegant color palette like deep navy, black, gold, champagne, or charcoal with accent tones).
+
+Use micro-interactions and subtle motion effects (e.g., parallax scrolling, fade-ins, hover transitions) to create a dynamic experience without being distracting.
+
+Replace or redesign any dated UI elements or components to align with a 2025-level design trend.
+
+Ensure consistency in spacing, padding, font usage, and visual balance across devices.
+
+Typography and Content Layout:
+
+Use modern serif or high-contrast sans-serif fonts that reflect elegance and professionalism.
+
+Use full-width hero sections with impactful headings and calls to action.
+
+Optimize content blocks to enhance storytelling, scannability, and conversion.
+
+Visual Assets & Elements:
+
+Integrate high-quality, professionally styled icons, buttons, and dividers.
+
+Consider subtle textures, glassmorphism, or shadows to add depth—not just flat gradients.
+
+Use custom illustrations or high-end imagery where applicable.
+
+Performance and Responsiveness:
+
+Ensure the site is optimized for speed and SEO.
+
+Fully responsive across devices (desktop, tablet, mobile).
+
+Accessibility best practices should be followed (contrast ratios, alt text, keyboard navigation).
